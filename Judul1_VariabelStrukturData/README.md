@@ -1,8 +1,9 @@
 Tugas Akhir Percobaan 1
 
-Judul Proyek : Sistem Data Nilai Siswa
+Judul Program : Sistem Data Nilai Siswa
 
-Proyek ini merupakan sebuah sistem yang dirancang untuk mempermudah tenaga pendidik dalam mengelola dan memantau perkembangan akademik siswa secara terorganisir. Sistem ini menggunakan konsep List 2D pada Python, di mana data nilai disusun dalam matriks yang merepresentasikan hubungan antara baris sebagai identitas siswa dan kolom sebagai berbagai mata pelajaran.
+Program ini berfungsi sebagai sistem manajemen data akademik yang dirancang untuk memudahkan tenaga pendidik dalam melakukan pencatatan, pemantauan, dan evaluasi nilai siswa secara terstruktur. Dengan menyediakan fitur utama seperti input data yang tervalidasi, tampilan laporan dalam bentuk tabel, serta kalkulasi otomatis untuk menentukan rata-rata nilai setiap siswa, program ini membantu meningkatkan efisiensi administrasi nilai di lingkungan sekolah.
+Algoritma dan struktur data yang diterapkan dalam program ini adalah List 2D (dua dimensi) atau matriks, di mana baris merepresentasikan setiap siswa dan kolom merepresentasikan mata pelajaran tertentu. Implementasi ini menggunakan teknik perulangan bersarang (nested loop) untuk mengakses dan mengolah data pada setiap sel matriks, yang kemudian dikombinasikan dengan mekanisme error handling untuk menjamin integritas input data serta teknik string formatting untuk menyajikan data dalam format tabel yang sistematis dan mudah dibaca.
 
 Source Code :
 
@@ -34,7 +35,7 @@ Source Code :
 
 13. 
 
-14. Membuat variabel "bendera" untuk menjaga agar perulangan program tetap berjalan.
+14. Membuat variabel untuk menjaga agar perulangan program tetap berjalan.
 
 15. Memulai perulangan utama selama variabel running bernilai True.
 
@@ -152,4 +153,4 @@ Menu 3
 Menu 0
 <img width="256" height="41" alt="image" src="https://github.com/user-attachments/assets/c3668c7b-8816-469d-b450-413b46c36b50" />
 
-Link : 
+Link : https://youtu.be/C-J2WVD5_qE
