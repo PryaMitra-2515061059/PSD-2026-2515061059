@@ -1,3 +1,13 @@
+Tugas Akhir Percobaan 1
+
+Judul Proyek : Sistem Data Nilai Siswa
+
+Proyek ini merupakan sebuah sistem yang dirancang untuk mempermudah tenaga pendidik dalam mengelola dan memantau perkembangan akademik siswa secara terorganisir. Sistem ini menggunakan konsep List 2D pada Python, di mana data nilai disusun dalam matriks yang merepresentasikan hubungan antara baris sebagai identitas siswa dan kolom sebagai berbagai mata pelajaran.
+
+Source Code :
+
+<img width="1834" height="2648" alt="code" src="https://github.com/user-attachments/assets/ea585b8b-8228-4ed9-9f06-710167672b89" />
+
 1. Mendefinisikan fungsi bernama menu untuk membungkus kode yang menampilkan daftar pilihan.
 
 2. Mencetak judul sistem ke layar dengan baris baru di awal (\n).
@@ -121,3 +131,25 @@
 61. Baris standar Python untuk memastikan fungsi main() hanya berjalan jika file ini dieksekusi langsung.
 
 62. Memanggil fungsi utama untuk menjalankan seluruh program.
+
+Output :
+Jumlah Siswa dan Menu
+<img width="231" height="121" alt="image" src="https://github.com/user-attachments/assets/f7b5a067-3114-44b8-b0ac-ee2fc02037d4" />
+
+Menu 1
+Sebelum di inputkan Nilai
+<img width="433" height="147" alt="image" src="https://github.com/user-attachments/assets/a0085eea-27a9-4b2d-968d-e08f3c2a7e56" />
+
+Setelah di inputkan Nilai
+<img width="439" height="150" alt="image" src="https://github.com/user-attachments/assets/0f3c456f-9f33-4f29-93b7-8b0d9c1523b4" />
+
+Menu 2
+<img width="261" height="363" alt="image" src="https://github.com/user-attachments/assets/0eee3ce5-1884-4b4a-bb21-5e06e33d1947" />
+
+Menu 3
+<img width="174" height="115" alt="image" src="https://github.com/user-attachments/assets/e48b8569-bc89-4b0a-93cd-91ef2020dbd8" />
+
+Menu 0
+<img width="256" height="41" alt="image" src="https://github.com/user-attachments/assets/c3668c7b-8816-469d-b450-413b46c36b50" />
+
+Link : 
