@@ -14,7 +14,6 @@ class GameSave:
         if self.is_full():
             print("Slot save penuh, tidak dapat menyimpan game")
             return
-
         self.top += 1
         self.save_stack[self.top] = checkpoint
         print(f"Game berhasil disimpan di Save File : {checkpoint}")
@@ -23,7 +22,6 @@ class GameSave:
         if self.is_empty():
             print("Tidak dapat menemukan Save File")
             return
-
         print(f"Save File {self.save_stack[self.top]} Berhasil DiHapus")
         self.top -= 1
 
@@ -31,22 +29,18 @@ class GameSave:
         if self.is_empty():
             print("Kamu belum mempunyai Save File")
             return
-
         print(f"Save File terakhir: {self.save_stack[self.top]}")
 
     def show_saves(self):
         if self.is_empty():
             print("Data save kosong")
             return
-
         print("\nSave Game Mitz Adventure")
         for i in range(self.top, -1, -1):
             print(f"{i+1}. {self.save_stack[i]}")
 
-
 def main():
     game = GameSave()
-
     while True:
         print("\nMenu Save Game Mitz Adventure")
         print("1. Save Game")
@@ -54,9 +48,7 @@ def main():
         print("3. Lihat Save Terakhir")
         print("4. Tampilkan Semua Save")
         print("0. Keluar")
-
         pilih = int(input("Pilih menu : "))
-
         if pilih == 1:
             checkpoint = input("Masukkan nama Save File : ")
             game.save_game(checkpoint)
