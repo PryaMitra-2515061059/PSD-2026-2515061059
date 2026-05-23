@@ -91,7 +91,6 @@ class Leaderboard:
             return 0
         return root.score + self.sum_nodes(root.left) + self.sum_nodes(root.right)
 
-
 def main():
     lb = Leaderboard()
     pilih = 0
