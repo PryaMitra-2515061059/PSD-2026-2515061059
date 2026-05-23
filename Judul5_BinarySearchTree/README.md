@@ -2,9 +2,13 @@ Tugas Akhir Percobaan 5 : Binary Search Tree
 
 Judul Proyek : Leaderboard Pada Game Mitz Adventure
 
+Program ini merupakan implementasi struktur data Binary Search Tree (BST) pada sistem leaderboard permainan sederhana bernama Mitz Adventure menggunakan bahasa pemrograman Python. BST digunakan untuk menyimpan data pemain berupa nama dan score dengan aturan bahwa nilai yang lebih kecil ditempatkan pada subpohon kiri dan nilai yang lebih besar ditempatkan pada subpohon kanan. Dengan konsep tersebut, proses pengelolaan data menjadi lebih terstruktur dan mempermudah pencarian maupun pengurutan score. Program ini memungkinkan pengguna untuk menambahkan pemain baru ke leaderboard, menghapus data pemain, mencari score tertentu, serta menampilkan daftar leaderboard berdasarkan urutan score tertinggi hingga terendah.
+
+Pada program ini terdapat beberapa fungsi utama seperti insert() untuk menambahkan pemain ke dalam BST, delete() untuk menghapus data pemain berdasarkan score, search_score() untuk mencari data pemain tertentu, serta leaderboard() untuk menampilkan ranking pemain menggunakan metode traversal inorder terbalik sehingga score tertinggi ditampilkan lebih dahulu. Selain itu terdapat fungsi find_max() dan find_min() untuk menampilkan top dan bottom leaderboard, count_nodes() untuk menghitung jumlah pemain, sum_nodes() untuk menghitung total seluruh score, serta height() untuk mengetahui tinggi dari struktur BST. Program dijalankan menggunakan menu interaktif berbasis terminal sehingga pengguna dapat memilih fitur yang tersedia dengan mudah dan melakukan pengelolaan leaderboard secara langsung.
 
 Source Code :
 
+<img width="1810" height="6030" alt="code" src="https://github.com/user-attachments/assets/447e1dcc-ec46-4547-905a-6e10555f49c6" />
 
 
 1.	Membuat class Node untuk menyimpan data score pemain dan nama pemain. 
@@ -157,4 +161,42 @@ Source Code :
 148.	Menampilkan pesan penutup program. 
 149.	(Kosong) 
 150.	Mengecek apakah file dijalankan sebagai program utama. 
-151.	Menjalankan function main(). 
+151.	Menjalankan function main().
+
+Output 1 :
+
+<img width="313" height="251" alt="Ouput 1" src="https://github.com/user-attachments/assets/7756dd21-5001-4444-a9fa-7e844f6d6417" />
+
+Output 2 :
+
+<img width="277" height="235" alt="Output 2" src="https://github.com/user-attachments/assets/b74ae946-2a8d-4e36-a345-bb62b88a1907" />
+
+Output 3 :
+
+<img width="242" height="297" alt="Output 3" src="https://github.com/user-attachments/assets/190e4f48-6dfa-42c1-9b82-e3fd28dd25c4" />
+
+Output 4 :
+
+<img width="312" height="239" alt="output 4" src="https://github.com/user-attachments/assets/3c5a8146-fc69-49af-9c2d-ddb286aa48f5" />
+
+Output 5 :
+
+<img width="354" height="214" alt="Output 5" src="https://github.com/user-attachments/assets/a3aea8d7-9a59-42fe-91ff-036d1dfb9228" />
+
+Output 6 :
+
+<img width="398" height="223" alt="Output 6" src="https://github.com/user-attachments/assets/57b50456-19e4-4b94-b6f1-d002776c0a50" />
+
+Output 7 :
+
+<img width="258" height="234" alt="Output 7" src="https://github.com/user-attachments/assets/01502bd0-7b6e-4452-801e-2a245290b4f9" />
+
+Output 8 :
+
+<img width="250" height="215" alt="Output 8" src="https://github.com/user-attachments/assets/72778784-d7ae-4ce6-bc95-9e23347c9fc3" />
+
+Output 9 :
+
+<img width="558" height="211" alt="Output 9" src="https://github.com/user-attachments/assets/94e10781-c68a-4c1b-9509-6798fc6eaf9f" />
+
+Link : https://www.youtube.com/watch?v=elhcBWQEVaw
