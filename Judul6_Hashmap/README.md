@@ -1,6 +1,6 @@
 Tugas Akhir Percobaan 6 : Hash Map
 
-Judul Proyek : System Loot Drop Pada Game Mitz Adventure
+Judul Proyek : System Loot Drop Rate Pada Game Mitz Adventure
 
 System Loot Drop pada Game Mitz Adventure merupakan sebuah program yang dibuat untuk mengelola sistem drop item dari setiap monster menggunakan konsep struktur data HashMap. Program ini menyimpan data monster sebagai key dan daftar loot (item drop beserta persentase peluangnya) sebagai value. Dengan menggunakan teknik hashing dan open addressing, data dapat disimpan, dicari, dan dihapus dengan cepat tanpa harus melakukan pencarian satu per satu seperti pada struktur data biasa. Hal ini membuat proses pengambilan data loot menjadi lebih efisien terutama ketika jumlah monster dalam game semakin banyak.
 
@@ -144,6 +144,11 @@ Source Code :
 132.	Menjalankan fungsi utama program.
 
 Output :
+
+<img width="446" height="737" alt="Output" src="https://github.com/user-attachments/assets/a94e1dc4-c966-441c-8e8c-fcb3c6c3bf50" />
+
+
+Link : https://youtu.be/BCYM3C6pxIg
 
 <img width="446" height="737" alt="Output" src="https://github.com/user-attachments/assets/cb56ca47-cb14-4ad2-83b6-35f7fb4020c4" />
 
