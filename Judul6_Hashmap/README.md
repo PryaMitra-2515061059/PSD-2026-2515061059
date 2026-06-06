@@ -147,10 +147,4 @@ Output :
 
 <img width="446" height="737" alt="Output" src="https://github.com/user-attachments/assets/a94e1dc4-c966-441c-8e8c-fcb3c6c3bf50" />
 
-
 Link : https://youtu.be/BCYM3C6pxIg
-
-<img width="446" height="737" alt="Output" src="https://github.com/user-attachments/assets/cb56ca47-cb14-4ad2-83b6-35f7fb4020c4" />
-
-
-Link : 
